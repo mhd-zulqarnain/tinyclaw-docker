@@ -21,4 +21,4 @@ ENV OPENAI_API_KEY=""
 ENV DISCORD_TOKEN=""
 ENV ANTHROPIC_API_KEY=""
 
-CMD ["bash", "-c", "cd /root/.tinyclaw && tinyclaw start && tail -f /dev/null"]
+CMD ["bash", "-c", "jq --arg token \"$DISCORD_TOKEN\" '.channels.discord.bot_token = $token' /root/.tinyclaw/settings.json > /tmp/settings.json && mv /tmp/settings.json /root/.tinyclaw/settings.json && cd /root/.tinyclaw && tinyclaw start && tail -f /dev/null"]

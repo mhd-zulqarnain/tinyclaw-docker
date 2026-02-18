@@ -1,6 +1,6 @@
 {
   "workspace": {
-    "path": "/Users/pure-dev-zulqarnainmac/tinyclaw-workspace",
+    "path": "/root/tinyclaw-workspace",
     "name": "tinyclaw-workspace"
   },
   "channels": {
@@ -8,7 +8,7 @@
       "discord"
     ],
     "discord": {
-      "bot_token": ""
+      "bot_token_env": "DISCORD_TOKEN"
     },
     "telegram": {
       "bot_token": ""
@@ -20,7 +20,7 @@
       "name": "Assistant",
       "provider": "openai",
       "model": "gpt-5.2",
-      "working_directory": "/Users/pure-dev-zulqarnainmac/tinyclaw-workspace/assistant"
+      "working_directory": "/root/tinyclaw-workspace/assistant"
     }
   },
   "models": {
