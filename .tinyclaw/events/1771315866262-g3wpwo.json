@@ -1,0 +1,1 @@
+{"type":"response_ready","timestamp":1771315866262,"channel":"discord","sender":"mhd.zeeq","agentId":"assistant","responseLength":156,"responseText":"Done — removed the 2‑minute schedule.\n\n- Deleted: `gold_rate_2min`\n- Remaining: `gold_rate_1min` (Discord delivery)  \n- Verify: `./scripts/schedule.sh list`","messageId":"1771315848252_lhbo7a"}

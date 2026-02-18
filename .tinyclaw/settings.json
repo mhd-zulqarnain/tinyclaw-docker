@@ -1,0 +1,35 @@
+{
+  "workspace": {
+    "path": "/Users/pure-dev-zulqarnainmac/tinyclaw-workspace",
+    "name": "tinyclaw-workspace"
+  },
+  "channels": {
+    "enabled": [
+      "discord"
+    ],
+    "discord": {
+      "bot_token": ""
+    },
+    "telegram": {
+      "bot_token": ""
+    },
+    "whatsapp": {}
+  },
+  "agents": {
+    "assistant": {
+      "name": "Assistant",
+      "provider": "openai",
+      "model": "gpt-5.2",
+      "working_directory": "/Users/pure-dev-zulqarnainmac/tinyclaw-workspace/assistant"
+    }
+  },
+  "models": {
+    "provider": "openai",
+    "openai": {
+      "model": "gpt-5.2"
+    }
+  },
+  "monitoring": {
+    "heartbeat_interval": 3600
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"chain_step_done","timestamp":1771315866258,"agentId":"assistant","agentName":"Assistant","responseLength":156,"responseText":"Done — removed the 2‑minute schedule.\n\n- Deleted: `gold_rate_2min`\n- Remaining: `gold_rate_1min` (Discord delivery)  \n- Verify: `./scripts/schedule.sh list`"}

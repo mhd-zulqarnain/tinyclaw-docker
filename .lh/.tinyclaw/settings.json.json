@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".tinyclaw/settings.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1771388227901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1771388227901,
+            "name": "Commit-0",
+            "content": "{\n  \"workspace\": {\n    \"path\": \"/Users/pure-dev-zulqarnainmac/tinyclaw-workspace\",\n    \"name\": \"tinyclaw-workspace\"\n  },\n  \"channels\": {\n    \"enabled\": [\n      \"discord\"\n    ],\n    \"discord\": {\n      \"bot_token\": \"\"\n    },\n    \"telegram\": {\n      \"bot_token\": \"\"\n    },\n    \"whatsapp\": {}\n  },\n  \"agents\": {\n    \"assistant\": {\n      \"name\": \"Assistant\",\n      \"provider\": \"openai\",\n      \"model\": \"gpt-5.2\",\n      \"working_directory\": \"/Users/pure-dev-zulqarnainmac/tinyclaw-workspace/assistant\"\n    }\n  },\n  \"models\": {\n    \"provider\": \"openai\",\n    \"openai\": {\n      \"model\": \"gpt-5.2\"\n    }\n  },\n  \"monitoring\": {\n    \"heartbeat_interval\": 3600\n  }\n}\n"
+        }
+    ]
+}

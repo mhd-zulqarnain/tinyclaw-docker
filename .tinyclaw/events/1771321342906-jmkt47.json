@@ -1,0 +1,1 @@
+{"type":"message_received","timestamp":1771321342906,"channel":"discord","sender":"mhd.zeeq","message":"./scripts/schedule.sh add gold_rate_2min \"*/2* * * *\" \"@assistant Tell me the current gold price in USD and in PKR and t","messageId":"1771321164146_5unkbt"}
