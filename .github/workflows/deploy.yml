@@ -13,6 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Clear queue
+        run: rm -f .tinyclaw/queue/incoming/*.json .tinyclaw/queue/processing/*.json .tinyclaw/queue/outgoing/*.json
+
       - name: Install Railway CLI
         run: npm install -g @railway/cli
 
