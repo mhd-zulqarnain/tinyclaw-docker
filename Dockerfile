@@ -21,4 +21,4 @@ ENV OPENAI_API_KEY=""
 ENV DISCORD_TOKEN=""
 ENV ANTHROPIC_API_KEY=""
 
-CMD ["bash", "-c", "cd /root/tinyclaw && tinyclaw start && tail -f /dev/null"]
+CMD ["bash", "-c", "cd /root/.tinyclaw && tinyclaw start && tail -f /dev/null"]
